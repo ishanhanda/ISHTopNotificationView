@@ -12,6 +12,11 @@
 		E3942FA61D93A19800FAEF72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3942FA41D93A19800FAEF72 /* Main.storyboard */; };
 		E3942FA81D93A19800FAEF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3942FA71D93A19800FAEF72 /* Assets.xcassets */; };
 		E3942FAB1D93A19800FAEF72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3942FA91D93A19800FAEF72 /* LaunchScreen.storyboard */; };
+		E3942FB81D93A2F100FAEF72 /* ISHActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3942FB31D93A2F100FAEF72 /* ISHActivityIndicatorView.swift */; };
+		E3942FB91D93A2F100FAEF72 /* ISHActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3942FB41D93A2F100FAEF72 /* ISHActivityIndicatorView.xib */; };
+		E3942FBA1D93A2F100FAEF72 /* ISHShowsTopNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3942FB51D93A2F100FAEF72 /* ISHShowsTopNotificationView.swift */; };
+		E3942FBB1D93A2F100FAEF72 /* ISHTopNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3942FB61D93A2F100FAEF72 /* ISHTopNotificationView.swift */; };
+		E3942FBC1D93A2F100FAEF72 /* ISHTopNotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3942FB71D93A2F100FAEF72 /* ISHTopNotificationView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E3942FA71D93A19800FAEF72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3942FAA1D93A19800FAEF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3942FAC1D93A19800FAEF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3942FB31D93A2F100FAEF72 /* ISHActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISHActivityIndicatorView.swift; sourceTree = "<group>"; };
+		E3942FB41D93A2F100FAEF72 /* ISHActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISHActivityIndicatorView.xib; sourceTree = "<group>"; };
+		E3942FB51D93A2F100FAEF72 /* ISHShowsTopNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISHShowsTopNotificationView.swift; sourceTree = "<group>"; };
+		E3942FB61D93A2F100FAEF72 /* ISHTopNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISHTopNotificationView.swift; sourceTree = "<group>"; };
+		E3942FB71D93A2F100FAEF72 /* ISHTopNotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISHTopNotificationView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		E3942F941D93A19700FAEF72 = {
 			isa = PBXGroup;
 			children = (
+				E3942FB21D93A2F100FAEF72 /* ISHTopNotificationView */,
 				E3942F9F1D93A19800FAEF72 /* ISHTopNotificationViewDemo */,
 				E3942F9E1D93A19700FAEF72 /* Products */,
 			);
@@ -62,6 +73,18 @@
 				E3942FAC1D93A19800FAEF72 /* Info.plist */,
 			);
 			path = ISHTopNotificationViewDemo;
+			sourceTree = "<group>";
+		};
+		E3942FB21D93A2F100FAEF72 /* ISHTopNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				E3942FB31D93A2F100FAEF72 /* ISHActivityIndicatorView.swift */,
+				E3942FB41D93A2F100FAEF72 /* ISHActivityIndicatorView.xib */,
+				E3942FB51D93A2F100FAEF72 /* ISHShowsTopNotificationView.swift */,
+				E3942FB61D93A2F100FAEF72 /* ISHTopNotificationView.swift */,
+				E3942FB71D93A2F100FAEF72 /* ISHTopNotificationView.xib */,
+			);
+			path = ISHTopNotificationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +147,8 @@
 			files = (
 				E3942FAB1D93A19800FAEF72 /* LaunchScreen.storyboard in Resources */,
 				E3942FA81D93A19800FAEF72 /* Assets.xcassets in Resources */,
+				E3942FBC1D93A2F100FAEF72 /* ISHTopNotificationView.xib in Resources */,
+				E3942FB91D93A2F100FAEF72 /* ISHActivityIndicatorView.xib in Resources */,
 				E3942FA61D93A19800FAEF72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3942FA31D93A19800FAEF72 /* ViewController.swift in Sources */,
+				E3942FB81D93A2F100FAEF72 /* ISHActivityIndicatorView.swift in Sources */,
 				E3942FA11D93A19800FAEF72 /* AppDelegate.swift in Sources */,
+				E3942FBB1D93A2F100FAEF72 /* ISHTopNotificationView.swift in Sources */,
+				E3942FBA1D93A2F100FAEF72 /* ISHShowsTopNotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +316,7 @@
 				E3942FB11D93A19800FAEF72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
